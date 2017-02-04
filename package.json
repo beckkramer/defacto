@@ -1,0 +1,29 @@
+{
+  "name": "defacto",
+  "version": "0.0.1",
+  "description": "A tiny Sass/CSS setup that aggressively defers to browser defaults.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-defacto": "node-sass assets/defacto.scss assets/defacto.css" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beckkramer/defacto.git"
+  },
+  "keywords": [
+    "tiny",
+    "css",
+    "tiny",
+    "scss"
+  ],
+  "author": "Beck Kramer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beckkramer/defacto/issues"
+  },
+  "homepage": "https://github.com/beckkramer/defacto#readme",
+  "dependencies": {
+    "node-sass": "^4.5.0"
+  }
+}
