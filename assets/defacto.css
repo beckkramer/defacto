@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400|Source+Sans+Pro");
+body {
+  font-size: 1.25rem;
+  max-width: 36rem;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+  color: #333; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  margin: auto -2rem; }
+
+blockquote {
+  font-size: 1.5rem;
+  margin-right: -2rem;
+  color: #777; }
+
+img {
+  max-width: 100%; }
+
+body > img,
+figure {
+  max-width: 42rem;
+  margin: 2rem -3rem;
+  display: block; }
+
+figure img {
+  max-width: 42rem; }
+
+figure figcaption {
+  font-size: 1rem;
+  text-align: right; }
+
+table {
+  margin: 2rem 0; }
+
+th,
+td {
+  padding: 0.5rem; }
+
+label {
+  display: block;
+  margin: 1rem 0; }
+
+input,
+textarea,
+select {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.25rem; }
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  display: block; }
+
+button {
+  font-family: "Oswald", sans-serif;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  display: inline-block; }
+
+pre {
+  font-size: 1rem;
+  padding: 1rem;
+  border: 1px solid #CCC;
+  overflow-x: scroll; }
+
+hr {
+  margin: 2rem 0;
+  height: 1px;
+  outline: 0;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #CCC; }
