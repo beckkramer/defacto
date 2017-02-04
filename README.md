@@ -15,3 +15,6 @@ a simple text-heavy display, this could be a nice fit.
 
 ## I want to override things more!
 Awesome, go for it! This is super basic, so rock out.
+
+## Check it out.
+I've put together <a href="https://beckkramer.github.io/defacto/">a kitchen sink example</a>.
