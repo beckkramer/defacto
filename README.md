@@ -12,3 +12,6 @@ navigation, relative font sizing and spacing, etc).
 Not much! Basically accepts a couple variables and outputs some 
 simple CSS. If you've been looking for a barebones bit of CSS for
 a simple text-heavy display, this could be a nice fit.
+
+## I want to override things more!
+Awesome, go for it! This is super basic, so rock out.
