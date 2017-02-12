@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-defacto": "node-sass assets/defacto.scss assets/defacto.css" 
+    "compile-defacto": "node-sass assets/defacto.scss public/defacto.css" 
   },
   "repository": {
     "type": "git",
