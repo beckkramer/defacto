@@ -1,0 +1,102 @@
+// Base HTML Elements
+
+body {
+	font-size: 1.25rem;
+	max-width: 36rem;
+	font-family: $font-family-main;
+	margin: 0 auto;
+	padding: $spacing ($spacing + 1rem);
+	color: $font-color-primary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-family-accent;
+    font-weight: 400;
+    margin: auto (-$spacing);
+}
+
+blockquote {
+	font-size: 1.5rem;
+	margin-right: -$spacing;
+  color: $font-color-secondary;
+}
+
+img {
+	max-width: 100%;
+}
+
+body > img,
+figure {
+	max-width: $body-width + (($spacing + 1rem)*2);
+	margin: $spacing (-($spacing + 1rem));
+	display: block;
+} 
+
+figure {
+	img {
+		max-width: $body-width + (($spacing + 1rem)*2);
+	}
+	figcaption {
+		font-size: 1rem;
+		text-align: right;
+	}
+}
+
+table {
+	margin: $spacing 0;
+}
+th,
+td {
+	padding: $spacing/4;
+}
+
+label {
+	display: block;
+	margin: $spacing/2 0;
+}
+
+input,
+textarea,
+select, {
+	font-family: $font-family-main;
+	font-size: 1.25rem;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+	width: 100%;
+	padding: $spacing/4;
+	display: block;
+}
+
+button {
+	font-family: $font-family-accent;
+	padding: $spacing/4;
+	margin-top: $spacing/2;
+	display: inline-block;
+}
+
+pre {
+	font-size: 1rem;
+	padding: $spacing/2;
+	border: 1px solid $border-color;
+	overflow-x: scroll;
+}
+
+hr {
+	margin: $spacing 0;
+	height: 1px;
+	outline: 0;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: $border-color;
+}

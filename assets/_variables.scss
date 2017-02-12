@@ -1,0 +1,17 @@
+// Variables for Defacto
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400|Source+Sans+Pro');
+
+$font-family-main: 'Source Sans Pro', sans-serif;
+$font-family-accent: 'Oswald', sans-serif;
+
+$body-width: 36rem;
+$spacing: 2rem;
+
+// Double check any colors you want to use pass
+// WCAG AA: http://webaim.org/resources/contrastchecker/ 
+$font-color-primary: #333;
+$font-color-secondary: #777;
+
+// Yes, ideally for this color too! 
+$border-color: #CCC;
